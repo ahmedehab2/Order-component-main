@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  box-sizing: border-box;
+  font-family: Lato;
+}
+body {
+  background: url(images/pattern-background-desktop.svg);
+}
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 25rem;
+  justify-content: center;
+  margin: 2em;
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#content img {
+  width: 100%;
+  border-radius: 25px 25px 0 0;
+  padding-bottom: 2rem;
+}
+#content p {
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+  padding: 2rem;
+}
+#info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 25px;
+  width: 70%;
+  padding: 1rem;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0.5rem;
+}
+.price {
+  color: hsl(224, 23%, 55%);
+}
+#info a {
+  color: hsl(223, 47%, 23%);
+  padding-left: 3rem;
+}
+#btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 20px;
+}
+.btn1 {
+  width: 70%;
+  height: 40px;
+  border-radius: 30px;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  border: none;
+}
+.btn2 {
+  background-color: transparent;
+  margin: 1rem;
+  border: none;
+  color: hsl(224, 23%, 55%);
+  font-weight: bold;
+}
+.attribution {
+  text-align: center;
+  margin: 1em;
+}
+.btn1:hover {
+  background-color: hsl(224, 23%, 55%);
+  transition: 0.5s ease-in-out;
+}
+.btn2:hover {
+  color: hsl(245, 75%, 52%);
+}
